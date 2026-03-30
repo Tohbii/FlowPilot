@@ -3,7 +3,7 @@ import { Calendar, Brain, BarChart, CheckSquare } from "lucide-react";
 
 const Features = () => {
   return (
-    <div className=' bg-white text-center max-w-2xl mx-auto mb-12'>
+    <div  id="features" className=' bg-white text-center max-w-2xl mx-auto mb-12 scroll-mt-20'>
         <h2 className='text-3xl md:text-4xl font-bold text-slate-900 mb-4'>
             Everything you need to stay <span className='text-indigo-600'>productive</span>
         </h2>
