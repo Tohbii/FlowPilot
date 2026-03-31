@@ -1,6 +1,7 @@
 import React from 'react'
 import { Menu, X } from "lucide-react";
 import { useState } from 'react'
+import dashboard from '../assets/dashboard.jpg'
 
 
 export default function Hero() {
@@ -126,7 +127,7 @@ export default function Hero() {
 
            <div className='relative'>
                 <div className='rounded-xl overflow-hidden shadow-xl border border-slate-200'>
-                    <img src="img/dashboard.jpg" alt="FlowPilot Dashboard" className='w-full h-auto' /> 
+                    <img src={dashboard} alt="FlowPilot Dashboard" className='w-full h-auto' /> 
                 </div>
 
             {/* gradient glow */}
