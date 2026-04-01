@@ -3,7 +3,7 @@ import React from 'react'
 const HowItWorks = () => {
   return (
     <div>
-        <section id="how-it-works" className='py-20 md:py-28 scroll-mt-20'>
+        <section id="how-it-works" className='py-10 md:py-12 scroll-mt-20'>
 
                 {/* Header */}
                 <div className='text-center max-w-2xl mx-auto mb-16'>

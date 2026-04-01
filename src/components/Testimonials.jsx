@@ -4,7 +4,7 @@ import { Calendar, Quote, Brain, BarChart, CheckSquare } from "lucide-react";
 const Testimonials = () => {
   return (
     <div id="testimonials" className='scroll-mt-20'>
-        <section className='py-20 md:py-28'>
+        <section className='py-10 md:py-12 scroll-mt-20'>
              <div className='text-center max-w-2xl mx-auto mb-16'>
 
         <h2 className='text-3xl md:text-4x1 font-bold text-slate-900 mb-4'>

@@ -82,7 +82,7 @@ export default function Hero() {
         </div>
         )}
       </header>
-        <section className='relative overflow-hidden bg-white min-h-screen  flex items-center py-20 md:24'>
+        <section className='relative overflow-hidden bg-white min-h-screen  flex items-center py-10 md:py-12 '>
     <div className='max-w-7xl  text-center mx-auto px-6 grid md:grid-cols-2 gap-12 md:text-left items-center'>
         {/* CONTENT */}
         <div>
