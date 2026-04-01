@@ -19,6 +19,9 @@ const Testimonials = () => {
       <div className='grid grid-cols-1 md:grid-cols-3 gap-8'>
         <div className='p-6 rounded-xl border border-slate-200 bg-white shadow-sm hover:shadow-md transition'>
             <p className='text-slate-600 text-sm mb-6'>
+                <div className='w-10 h-10 flex items-center justify-center rounded-full bg-indigo-50 text-indigo-600 mb-4 '>
+                    <Quote className='text-indigo-600 ' size={18}/>
+                </div>
                 FlowPilot completely changed how I manage my day. I get more done with less stress.
 
             </p>
@@ -35,6 +38,9 @@ const Testimonials = () => {
 
         <div className='p-6 rounded-xl border border-slate-200 bg-white shadow-sm hover:shadow-md transition'>
             <p className='text-slate-600 text-sm mb-6'>
+               <div className='w-10 h-10 flex items-center justify-center rounded-full bg-indigo-50 text-indigo-600 mb-4 '>
+                    <Quote className='text-indigo-600 ' size={18}/>
+                </div>
                 The AI scheduling is insanely accurate. It feels like having a personal assistant
 
             </p>
@@ -50,8 +56,12 @@ const Testimonials = () => {
         </div>
 
         <div className='p-6 rounded-xl border border-slate-200 bg-white shadow-sm hover:shadow-md transition'>
-            <p className='text-slate-600 text-sm mb-6'>
-                I used to feel overwhelmed daily. Now everything is structured and clear
+            <p className='text-slate-600 text-sm mb-6'> 
+                <div className='w-10 h-10 flex items-center justify-center rounded-full bg-indigo-50 text-indigo-600 mb-4 '>
+                    <Quote className='text-indigo-600 ' size={18}/>
+                </div>
+
+              I used to feel overwhelmed daily. Now everything is structured and clear
 
             </p>
             <div className='flex items-center gap-3'>
