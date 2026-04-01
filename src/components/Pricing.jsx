@@ -7,7 +7,7 @@ const Pricing = () => {
         {/* title */}
       <div className="text-center max-w-2xl mx-auto mb-16">
         <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-         Simple, transparent pricing
+         Simple, <span className="text-indigo-600">transparent</span> pricing
         </h2>
         <p className="text-slate-600">
         Choose a plan that fits your workflow.
