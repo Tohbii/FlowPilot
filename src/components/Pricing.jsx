@@ -16,7 +16,7 @@ const Pricing = () => {
 
       {/* plans */}
      <section className='grid grid-cols-1 md:grid-cols-3 gap-8'>
-             <div className="p-6 rounded-xl border border-slate-200 bg-white shadow-sm">
+             <div className="p-6 rounded-xl border border-slate-200 bg-white shadow-sm hover:shadow-md hover:-translate-y-1 transition">
 
             <h3 className="text-lg font-semibold text-slate-900 mb-2">
                 Free Plan
@@ -32,7 +32,7 @@ const Pricing = () => {
                 <li>✔ Limited analytics</li>
             </ul>
 
-            <button className="w-full bg-indigo-600 text-white py-2 rounded-lg hover:bg-indigo-700">
+            <button className=" hover:scale-105 w-full bg-indigo-600 text-white py-2 rounded-lg hover:bg-indigo-700">
                 Get Started
             </button>
 
@@ -43,10 +43,10 @@ const Pricing = () => {
 
 
 
-       <div className="p-6 rounded-xl border-2  border-slate-200 bg-white shadow-sm">
+       <div className="p-6 rounded-xl border-2 border-slate-200  bg-white  md:scale-105 md:border-indigo-600 shadow-md hover:shadow-md hover:-translate-y-1 transition ">
 
           <h3 className="text-lg font-semibold text-slate-900 mb-2">
-            Pro
+            Pro <span className='text-xs bg-indigo-100 text-indigo-600 px-3 py-1 rounded-full'>Most Popular</span>
           </h3>
 
           <p className="text-3xl font-bold text-slate-900 mb-4">
@@ -60,12 +60,12 @@ const Pricing = () => {
             <li>✔ Full analytics</li>
           </ul>
 
-          <button className="w-full bg-indigo-600 text-white py-2 rounded-lg hover:bg-indigo-700">
+          <button className="hover:scale-105  w-full bg-indigo-600 text-white py-2 rounded-lg hover:bg-indigo-700">
             Get Started
           </button>
 
        </div>
-      <div className="p-6 rounded-xl border border-slate-200 bg-white shadow-sm">
+      <div className="p-6 rounded-xl border border-slate-200 bg-white shadow-sm hover:shadow-md hover:-translate-y-1 transition">
 
               <h3 className="text-lg font-semibold text-slate-900 mb-2">
                 Team Plan
@@ -81,7 +81,7 @@ const Pricing = () => {
                 <li>✔ shared dashboards</li>
               </ul>
 
-              <button className="w-full bg-indigo-600 text-white py-2 rounded-lg hover:bg-indigo-700">
+              <button className=" hover:scale-105 transition w-full bg-indigo-600 text-white py-2 rounded-lg hover:bg-indigo-700">
                 Get Started
               </button>
 

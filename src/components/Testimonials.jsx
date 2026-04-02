@@ -3,7 +3,7 @@ import { Calendar, Quote, Brain, BarChart, CheckSquare } from "lucide-react";
 
 const Testimonials = () => {
   return (
-    <div id="testimonials" className='scroll-mt-20'>
+    <div id="testimonials" className='bg-gray-50 scroll-mt-20'>
         <section className='py-10 md:py-12 scroll-mt-20'>
              <div className='text-center max-w-2xl mx-auto mb-16'>
 
