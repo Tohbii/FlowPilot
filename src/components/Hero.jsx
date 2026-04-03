@@ -10,7 +10,7 @@ export default function Hero() {
     return (
     <>
       {/* NAVBAR */}
-      <header className="bg-white  dark:bg-gray-900  fixed top-0 left-0 w-full z-50">
+      <header className="bg-gray-900  fixed top-0 left-0 w-full z-50">
         
         <div className="mx-auto flex h-16 max-w-7xl items-center gap-8 px-4 sm:px-6 lg:px-8">
                     <a className="block text-indigo-700 dark:text-indigo-600" href="#">
@@ -74,7 +74,7 @@ export default function Hero() {
 
         {/* Mobile Menu */}
         {isOpen && (
-         <div className="absolute top-16 left-0 w-full bg-white dark:bg-gray-900 shadow-md flex flex-col items-center py-6 gap-4 md:hidden dark:text-white">
+         <div className="absolute top-16 left-0 w-full bg-gray-900 shadow-md flex flex-col items-center py-6 gap-4 md:hidden dark:text-white">
             <a className="hover:text-gray-500" href="#features" onClick={() => setIsOpen(false)}>Features</a>
             <a className="hover:text-gray-500" href="#pricing" onClick={() => setIsOpen(false)}>Pricing</a>
             <a className="hover:text-gray-500" href="#how-it-works" onClick={() => setIsOpen(false)}>How it Works</a>
