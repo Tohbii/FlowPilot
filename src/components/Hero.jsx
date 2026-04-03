@@ -74,7 +74,7 @@ export default function Hero() {
 
         {/* Mobile Menu */}
         {isOpen && (
-         <div className="absolute top-16 left-0 w-full bg-gray-900 shadow-md flex flex-col items-center py-6 gap-4 md:hidden dark:text-white">
+         <div className="absolute top-16 left-0 w-full bg-gray-900 shadow-md flex flex-col items-center py-6 gap-4 md:hidden text-white">
             <a className="hover:text-gray-500" href="#features" onClick={() => setIsOpen(false)}>Features</a>
             <a className="hover:text-gray-500" href="#pricing" onClick={() => setIsOpen(false)}>Pricing</a>
             <a className="hover:text-gray-500" href="#how-it-works" onClick={() => setIsOpen(false)}>How it Works</a>
