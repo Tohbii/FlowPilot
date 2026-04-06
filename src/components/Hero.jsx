@@ -12,7 +12,7 @@ export default function Hero() {
       {/* NAVBAR */}
       <header className="bg-gray-900  fixed top-0 left-0 w-full z-50">
         
-        <div className="mx-auto flex h-16 max-w-7xl items-center gap-8 px-4 sm:px-6 lg:px-8">
+        <div className="mx-auto flex h-16 max-w-full items-center gap-8 px-4 sm:px-6 lg:px-8">
                     <a className="block text-indigo-700 dark:text-indigo-600" href="#">
                          Flow<span className='text-white'>Pilot</span>
                         
@@ -82,30 +82,30 @@ export default function Hero() {
         </div>
         )}
       </header>
-        <section className='relative overflow-hidden bg-white min-h-screen  flex items-center py-10 md:py-12 '>
-    <div className='max-w-7xl  text-center mx-auto px-6 grid md:grid-cols-2 gap-12 md:text-left items-center'>
+        <section className=' max-w-full relative overflow-hidden bg-white min-h-screen  flex items-center py-24  '>
+    <div className=' text-center mx-auto grid md:grid-cols-2 gap-12 md:text-left items-center px-6 '>
         {/* CONTENT */}
-        <div>
+        <div className=''>
             {/* Badge */}
-            <div className='inline-block mb-4 px-4 py-1 rounded-full bg-indigo-50 text-indigo-600 text-sm font-medium'>
+            <div className='inline-block mb-2 px-4 py-1 rounded-full bg-indigo-50 text-indigo-600 text-sm font-medium'>
                 NEW: AI Daily Planning is live
             </div>
              
             {/* Heading */}
-            <h1 className='text-4xl md:text-5xl font-bold text-slate-900 leading-tight mb-6 '>
+            <h1 className='text-4xl md:text-5xl font-bold text-slate-900 leading-tight mb-4 '>
                 Plan Less. 
                 <span className='text-indigo-600'>Do More.</span>
             </h1>
 
             {/* subtext */}
-            <p className='text-slate-600 text-sm mb-8 max-w-lg'>
+            <p className='text-slate-600 text-sm mb-12 max-w-lg'>
                 FlowPilot automatically schedules your tasks, block distractions, and help you stay focused on what truly matters.
             </p>
 
             {/* buttons */}
             {/* <div className='flex flex-wrap  gap-4 mb-6 justify-center  md:justify-start max-w-lg mx-auto '> */}
             
-            <div className="flex flex-row items-center justify-center md:flex-row md:items-start md:justify-start gap-4 mb-6">
+            <div className="flex flex-row items-center justify-center md:flex-row md:items-start md:justify-start gap-4 mb-4">
                 <button className=' bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-lg font-medium transition'>
                     Start Free Trial 
                 </button>
@@ -125,7 +125,7 @@ export default function Hero() {
 
          {/* Right Image */}
 
-           <div className='relative'>
+           <div className='relative '>
                 <div className='rounded-xl overflow-hidden shadow-xl border border-slate-200'>
                     <img src={dashboard} alt="FlowPilot Dashboard" className='w-full h-auto' /> 
                 </div>

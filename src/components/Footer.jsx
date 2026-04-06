@@ -3,9 +3,9 @@ import React from 'react'
 const Footer = () => {
   return (
     <div>
-      <footer className="bg-slate-900 text-slate-400 py-12">
+      <footer className="bg-slate-900 text-slate-400 px-6 py-12">
 
-        <div className="max-w-7xl mx-auto px-6">
+        <div className="max-w-7xl mx-auto ">
 
             <div className="flex flex-col md:flex-row justify-between items-center gap-6">
 

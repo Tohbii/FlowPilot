@@ -4,19 +4,19 @@ import { Calendar, Quote, Brain, BarChart, CheckSquare } from "lucide-react";
 const Testimonials = () => {
   return (
     <div id="testimonials" className='bg-gray-50 scroll-mt-20'>
-        <section className='py-10 md:py-12 scroll-mt-20'>
-             <div className='text-center max-w-2xl mx-auto mb-16'>
+        <section className='py-12 px-6  scroll-mt-20'>
+    <div className='text-center max-w-2xl mx-auto mb-12'>
 
         <h2 className='text-3xl md:text-4xl font-bold text-slate-900 mb-4'>
-            What people are saying
+            What People Are <span className='text-indigo-600'>Saying</span>
         </h2>
 
-        <p className='text-slate-600'>
+        <p className='text-slate-600 text-sm'>
             Thousand of professionals use FlowPilot to stay productive every day.
         </p>
       </div>
 
-      <div className='grid grid-cols-1 md:grid-cols-3 gap-8'>
+      <div className='grid  grid-cols-1 md:grid-cols-3 gap-8 '>
         <div className='p-6 rounded-xl border border-slate-200 bg-white shadow-sm hover:shadow-md transition'>
             <p className='text-slate-600 text-sm mb-6'>
                 <div className='w-10 h-10 flex items-center justify-center rounded-full bg-indigo-50 text-indigo-600 mb-4 '>

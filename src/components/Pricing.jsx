@@ -3,20 +3,20 @@ import React from 'react'
 const Pricing = () => {
   return (
     <div>
-      <section id="pricing" className='py-10 md:py-12 scroll-mt-20'>
+      <section id="pricing" className='py-12 px-6 scroll-mt-20'>
         {/* title */}
-      <div className="text-center max-w-2xl mx-auto mb-16">
+      <div className="text-center max-w-2xl mx-auto mb-12">
         <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-         Simple, <span className="text-indigo-600">transparent</span> pricing
+         Simple, <span className="text-indigo-600">Transparent</span> Pricing
         </h2>
-        <p className="text-slate-600">
+        <p className="text-slate-600 text-sm">
         Choose a plan that fits your workflow.
         </p>
      </div>
 
       {/* plans */}
-     <section className='grid grid-cols-1 md:grid-cols-3 gap-8'>
-             <div className="p-6 rounded-xl border border-slate-200 bg-white shadow-sm hover:shadow-md hover:-translate-y-1 transition">
+     <section className='grid grid-cols-1 md:grid-cols-3  gap-8'>
+             <div className="p-6 rounded-xl border-2 border-slate-200 bg-white shadow-sm   hover:border-indigo-600 hover:shadow-md hover:-translate-y-1 transition">
 
             <h3 className="text-lg font-semibold text-slate-900 mb-2">
                 Free Plan
@@ -43,7 +43,7 @@ const Pricing = () => {
 
 
 
-       <div className="p-6 rounded-xl border-2 border-slate-200  bg-white  md:scale-105 md:border-indigo-600 shadow-md hover:shadow-md hover:-translate-y-1 transition ">
+       <div className="p-6 rounded-xl border-2 border-slate-200  bg-white   hover:border-indigo-600 shadow-md hover:shadow-md hover:-translate-y-1 transition ">
 
           <h3 className="text-lg font-semibold text-slate-900 mb-2">
             Pro <span className='text-xs bg-indigo-100 text-indigo-600 px-3 py-1 rounded-full'>Most Popular</span>
@@ -65,7 +65,7 @@ const Pricing = () => {
           </button>
 
        </div>
-      <div className="p-6 rounded-xl border border-slate-200 bg-white shadow-sm hover:shadow-md hover:-translate-y-1 transition">
+      <div className="p-6 rounded-xl border-2 border-slate-200 bg-white shadow-sm  hover:border-indigo-600 hover:shadow-md hover:-translate-y-1 transition">
 
               <h3 className="text-lg font-semibold text-slate-900 mb-2">
                 Team Plan

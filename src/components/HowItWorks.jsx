@@ -3,20 +3,20 @@ import React from 'react'
 const HowItWorks = () => {
   return (
     <div>
-        <section id="how-it-works" className='py-10 md:py-12 scroll-mt-20'>
+        <section id="how-it-works" className='py-12 px-6  scroll-mt-20'>
 
                 {/* Header */}
-                <div className='text-center max-w-2xl mx-auto mb-16'>
+        <div className='text-center  mx-auto '>
 
                 <h2 className='text-3xl md:text-4xl font-bold text-slate-900 mb-4'>
-                    How FlowPilot Works
+                    How FlowPilot <span className='text-indigo-600'>Works</span> 
                 </h2>
 
-                <p className='text-slate-600'> 
+                <p className='text-slate-600 text-sm mb-12'> 
                 Get started in minutes and let AI handle your daily planning  
                 </p>
 
-            <div className='grid grid-cols-1 md:grid-cols-3  mx-auto gap-8 my-6'>
+            <div className=' grid grid-cols-1 md:grid-cols-3 gap-8 '>
 
                 <div className='text-center md:text-left p-6 rounded-xl border border-slate-200 hover:shadow-md transition'>
 
@@ -34,7 +34,7 @@ const HowItWorks = () => {
 
                 </div>
 
-                <div className='text-center md:text-left p-6 border border-slate-200 hover:shadow-md transition'>
+                <div className='text-center md:text-left p-6 border border-slate-200 rounded-xl hover:shadow-md transition'>
 
                     <div className='text-indigo-600 font-bold text-lg mb-2'>
                         02
@@ -45,12 +45,12 @@ const HowItWorks = () => {
                     </h3>
 
                     <p className='text-slate-600 text-sm'>
-                        Ipnut what you need to do, and let AI organize your workload based on priority and deadlines.
+                        Input what you need to do, and let AI organize your workload based on priority and deadlines.
                     </p>
 
                 </div>
 
-                <div className='text-center md:text-left p-6  border border-slate-200 hover:shadow-md transition'>
+                <div className='text-center md:text-left p-6 rounded-xl border border-slate-200 hover:shadow-md transition'>
 
                     <div className='text-indigo-600 font-bold text-lg mb-2'>
                         03
